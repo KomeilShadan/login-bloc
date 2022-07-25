@@ -12,6 +12,7 @@ class App extends StatelessWidget
   {
     return Provider(
       child: const MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Log Me In',
         home: Scaffold(
           body: LoginScreen(),
